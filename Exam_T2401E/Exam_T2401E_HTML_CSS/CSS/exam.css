@@ -1,0 +1,126 @@
+:root {
+    --twitter-color: #42AEEC;
+    --facebook-color: #405E9E;
+    --btn-primary-color: #007AFF;
+}
+* {
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    background-color: #f2f2f2;
+}
+#auth-form {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    place-items: center;
+    text-align: center;
+}
+#sign-up-form {
+    margin-top: 50px;
+}
+.sign-up-form__header {
+    margin-bottom: 8px;
+}
+.sign-up-form__heading {
+    margin-bottom: 12px;
+}
+#sign-up-form__socials {
+    margin-bottom: 8px;
+}
+.twitter {
+    background-color: var(--twitter-color);
+    color: white;
+    height: 36px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.facebook .btn-facebook ,
+.twitter .btn-twitter {
+    line-height: 36px;
+    text-align: center;
+    font-size: 16px;
+}
+.btn-facebook i,
+.btn-twitter i {
+    padding-right: 8px;
+    font-size: 17px;
+}
+.facebook {
+    background-color: var(--facebook-color);
+    color: white;
+    height: 36px;
+    margin-bottom: 6px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+#sign-up-form__between {
+    margin: 8px 0px;
+    font-size: 14px;
+}
+#sign-up-form__form {
+    font-size: 18px;
+    margin-bottom: 16px;
+}
+.sign-up-form__group {
+    margin-bottom: 8px;
+    width: 100%;
+    display: flex;
+    line-height: 34px;
+    align-items: center;
+    border: 2px solid #E1E2E4 ;
+    border-radius: 4px;
+}
+.sign-up-form__group i {
+    padding: 8px 8px 9px 8px;
+    background-color: #E8ECEF;
+    color: #48515A;
+
+}
+.sign-up-form__input {
+    width: 100%;
+    height: 35px;
+    border: none;
+    padding-left: 10px;
+    outline: none;
+}
+.input-form-number {
+    width: 50%;
+    
+}
+.select {
+    height: 35px;
+    border: none;
+    width: 100%;
+    
+}
+#tel {
+    width: 100px;
+    border: 1px solid #E8ECEF;
+}
+#sign-up-form__control {
+    height: 36px;
+    
+}
+#sign-up-form__control .btn--primary{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    border-radius: 4px;
+    background-color: var(--btn-primary-color);
+}
+.sign-up-form__switch-btn{
+    color: #1F74D1;
+    cursor: pointer;
+}
+
+
+
+
+
+
