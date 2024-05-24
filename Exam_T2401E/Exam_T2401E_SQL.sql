@@ -103,4 +103,3 @@ select
 from Students s
 join Classes c on s.ClassID = c.ClassID
 join Teachers t on c.TeacherID = t.TeacherID;
-select * from StudentsWithClassAndTeacher
