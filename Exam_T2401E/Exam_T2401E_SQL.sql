@@ -77,11 +77,11 @@ join Teachers t on t.TeacherID=c.TeacherID;
 --6.Update the name of the student whose StudentID is 3 to "John Doe".
  update Students set LastName = 'John Doe' where StudentID=3;
 
- --7.Delete students whose StudentID is 7.
+--7.Delete students whose StudentID is 7.
  delete from Students where StudentID = 7;
 
- --8.Create a stored procedure named GetStudentsByClassAndSubject that takes ClassID and Subject, and returns a list of students belonging to that class and subject.
- create procedure GetStudentsByClassAndSubject @p_ClassID int ,@p_Subject varchar(30)
+--8.Create a stored procedure named GetStudentsByClassAndSubject that takes ClassID and Subject, and returns a list of students belonging to that class and subject.
+create procedure GetStudentsByClassAndSubject @p_ClassID int ,@p_Subject varchar(30)
 as
     select s.StudentID, s.Firstname, s.Lastname, s.Birthdate, c.ClassName, t.Firstname as TeacherFirstname, t.Lastname as TeacherLastname, t.Subject
     from Students s
