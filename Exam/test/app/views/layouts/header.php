@@ -3,11 +3,12 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>footer</title>
+    <link href="http://localhost/test/app/asset/css/header.css" rel="stylesheet" />
+    <title>header</title>
 </head>
 <body>
-    <div class="footer">
-        <p>Số 8, Tôn Thất Thuyết, Cầu Giấy, Hà Nội</p>
+    <div class="header">
+        <h1>V_Store    Items</h1>
     </div>
 </body>
 </html>

@@ -1,14 +1,13 @@
 <?php
 
 class App {
-    private $__controller, $__action, $__params, $__conn, $controller;
+    private $__controller, $__action, $__params, $__conn, $__middleware, $controller;
 
     function __construct($conn) {
         $this->__controller = "home";
         $this->__action = "index";
         $this->__params = [];
         $this->__conn = $conn;
-        
         $this->handleUrl();
     }
 
